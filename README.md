@@ -1,4 +1,11 @@
 # Redis-3.2.1-cluster
+## 创建redis集群节点目录
+redis-6382
+redis-6383
+redis-6384
+redis-6385
+redis-6386
+redis-6387
 ## 删除集群节点
 删除从节点
 ========使用forget删除从节点
