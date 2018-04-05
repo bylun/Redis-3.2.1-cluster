@@ -1,11 +1,18 @@
 # Redis-3.2.1-cluster
-## redis集群节点目录
+## 创建redis集群节点目录
 <br>redis-6382
 <br>redis-6383
 <br>redis-6384
 <br>redis-6385
 <br>redis-6386
 <br>redis-6387
+### 启动redis集群节点
+./startRedisCluster.sh
+### 执行redis节点加入集群
+./joinRedisNodesCluster.sh
+### 停止redis集群
+./stopRedisCluster.sh
+
 ## 删除集群节点
 删除从节点
 ========使用forget删除从节点
@@ -29,9 +36,4 @@ cluster info
 主节点已删除。
 
 另外, 经过观察,这个主节点被删除之后,它之前拥有的从节点会自动成为其他主节点的从节点.
-### 启动redis集群节点
-./startRedisCluster.sh
-### 执行redis节点加入集群
-./joinRedisNodesCluster.sh
-### 停止redis集群
-./stopRedisCluster.sh
+
