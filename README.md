@@ -13,7 +13,7 @@
 ### 停止redis集群
 ./stopRedisCluster.sh
 
-## 删除集群节点
+### 删除集群节点
 删除从节点
 ========使用forget删除从节点
 使用forget删除redis集群节点（从节点），集群依然可用
