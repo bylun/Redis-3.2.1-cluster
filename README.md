@@ -12,6 +12,8 @@
 ./joinRedisNodesCluster.sh
 ### 停止redis集群
 ./stopRedisCluster.sh
+### 清理redis集群成生的文件
+./clearRedisCluster.sh
 
 ### 删除集群节点
 删除从节点
