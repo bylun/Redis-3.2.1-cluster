@@ -1,5 +1,5 @@
 # Redis-3.2.1-cluster
-## 创建redis集群节点目录
+## redis集群节点目录
 <br>redis-6382
 <br>redis-6383
 <br>redis-6384
