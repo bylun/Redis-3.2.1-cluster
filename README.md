@@ -21,7 +21,7 @@ cluster forget aeb8f1310d42e10c71ec16f76b83e2d7aee3a49e
 查看redis集群状态
 cluster info
 从节点已删除。
-# 删除主节点
+## 删除主节点
 1、先转移哈希槽到其它主节点
 ./redis-trib.rb reshard 192.168.1.161:6382(首先把该master节点下的哈希槽转移到其他节点下)
 注：
